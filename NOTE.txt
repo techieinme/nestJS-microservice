@@ -1,0 +1,17 @@
+npm i -g @nestjs/cli
+nest new project-name
+
+npm run start
+
+nest g module cats
+nest g controller cats
+nest g service cats
+nest g pipe cats/cat
+nest g inteface cats/interface/cat
+
+
+
+//https://docs.nestjs.com/techniques/security
+npm i --save helmet
+
+
